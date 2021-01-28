@@ -1,0 +1,120 @@
+body{
+    background: rgb(32, 32, 65);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3{
+    color: #fff;
+}
+button{
+    color: #fff;
+    border: none;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 10px;
+    cursor: pointer; 
+}
+button:hover{
+    transition-duration: 0.4s;
+}
+
+.btn-1{
+    background-color: #70d473; 
+    padding: 16px 50px;
+}
+.btn-1:hover{
+    background-color: #4b974e;
+    }
+.btn-2{
+    background-color:#df0000; 
+    padding: 11px 38px;
+}
+.btn-2:hover{
+    background-color:#a00000;
+    }
+.btn-3{
+    background-color: #00ccff;
+    padding: 6px 21px;
+}
+.btn-3:hover{
+    background-color: #0091b6;
+    }
+.btn-4{
+    background-color: #ff9900;
+    padding: 16px 50px;
+    border-radius: 20px;
+}
+.btn-4:hover{
+    background-color: #c07300;
+    }
+.btn-5{
+    background-color: #ffee00;
+    padding: 11px 38px;
+    border-radius: 19px;
+}
+.btn-5:hover{
+    background-color: #bdb000;
+    }
+.btn-6{
+    background-color: #939999;
+    padding: 6px 21px;
+    border-radius: 18px;
+}
+.btn-6:hover{
+    background-color: #717575;
+    }
+.btn-7{
+    background: rgba(255,255,255,0.005);
+    border: 2px solid #70d473;
+    padding: 16px 50px;
+}
+.btn-7:hover{
+    background-color: #70d473;
+    }
+.btn-8{
+    background: rgba(255,255,255,0.005);
+    border: 2px solid #df0000;
+    padding: 9px 25px;
+}
+.btn-8:hover{
+    background-color: #df0000;
+    }
+.btn-9{
+    background: rgba(255,255,255,0.005);
+    border: 2px solid #00ccff;
+    padding: 5px 18px;
+}
+.btn-9:hover{
+    background-color: #00ccff;
+    }
+.btn-10{
+    background-color: rgba(255,255,255,0.005);
+    border: 2px solid #ff9900;
+    padding: 16px 50px;
+    border-radius: 20px;
+}
+.btn-10:hover{
+    background-color: #ff9900;
+    }
+.btn-11{
+    background-color: rgba(255,255,255,0.005);
+    border: 2px solid #ffee00;
+    padding: 11px 38px;
+    border-radius: 19px;
+}
+.btn-11:hover{
+    background-color: #ffee00;
+    }
+.btn-12{
+    background-color: rgba(255,255,255,0.005);
+    border: 2px solid #939999;
+    padding: 6px 21px;
+    border-radius: 18px;
+}
+.btn-12:hover{
+    background-color: #939999;
+    }

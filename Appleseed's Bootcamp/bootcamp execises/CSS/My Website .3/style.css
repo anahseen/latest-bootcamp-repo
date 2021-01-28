@@ -1,0 +1,119 @@
+ * {
+            box-sizing: border-box;
+            font-family: 'Yusei Magic', sans-serif;
+        }
+        body{
+            
+            background-image: url('/image/21.jpg') ;
+            background-attachment: fixed ;
+            background-repeat: no-repeat ;
+            background-position: top;
+            background-size: cover;
+            position: relative;
+            
+        }
+        #boldup{
+            font-weight: 900;
+            font-size: 40px;
+        }
+
+        ul {
+            
+            padding: 12px;
+            list-style: square;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: (255,255,255);
+            line-height: 1.4;
+        }
+
+        #header {
+            margin-bottom: 15px;
+            background: #2c2c2c49;
+            color: rgba(255, 255, 255);
+            padding: 10px;
+        }
+
+        #main {
+            color: #fff;
+            float: left;
+            width: 69%;
+        }
+
+        #sidebar{
+            color: #fff;
+            float: right;
+            width: 29%;
+            text-align: left;
+            padding: 40px;
+        }
+
+        .clr {
+            clear: both;
+        }
+
+        #footer {
+            background: rgba(255, 255, 255, 0.5);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            font-family:Arial, Helvetica, sans-serif ;
+            font-size: 35px;
+        }
+
+        .text-center {
+            
+            display: block;
+            text-align: center;
+        }
+
+        .card {
+            
+            color:#fff ;
+            border: 1px solid #ddd;
+            background: #2c2c2ca6;
+            padding: 20px;
+            margin-bottom: 10px;    
+        }
+        #li1 a {
+
+            color: inherit;
+            text-decoration: none;
+            
+        }
+        #li1 a:hover 
+        {
+             color:#00A0C6; 
+             text-decoration:none; 
+             cursor:pointer;  
+        }
+
+        #li2 a {
+            color: inherit;
+            text-decoration: none;
+        }
+        #li2 a:hover 
+        {
+             color:#ffaf1b; 
+             text-decoration:none; 
+             cursor:pointer;  
+        }
+        #li3 a {
+            color: inherit; 
+            text-decoration: none;
+        }
+        #li3 a:hover 
+        {
+            color: #fbff00;
+             text-decoration:none; 
+             cursor:pointer;  
+        }
+        li{
+            width: 100%;
+            font-size: 32px;
+        }
+        
+        
+        
+        

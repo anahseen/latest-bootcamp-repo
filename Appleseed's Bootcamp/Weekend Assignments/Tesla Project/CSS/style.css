@@ -1,0 +1,149 @@
+    @font-face {
+        font-family: "Tesla"; src: url( '/CSS/TESLA.ttf' );
+    }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: center center/cover;
+    background-image: url('/images/model-3-hero-desktop.png');
+    
+}
+
+
+
+nav h1 a{
+    font-family: "Tesla";
+    color: #f4f4f4;
+    float: left;
+    padding: 19px;
+    margin-top: -1px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 100;
+    
+}
+
+nav .right-menu{
+    margin: 0 10px;
+    padding:0;
+    width:30px;
+    height: 15px;
+    float: right;
+    margin-top: -30px;
+    
+    
+}
+nav .right-menu div{
+    width: 25px;    
+height: 5px;
+background: #f4f4f4;
+border-top-left-radius:35%;
+border-top-right-radius:35%;
+margin: 3px;
+
+
+}
+
+
+nav > ul{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    background: none;
+    list-style: none;
+    
+    
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav ul a{
+    text-decoration: none;
+   font-size: 16px;
+    color: #f4f4f4;
+    font-family: sans-serif;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+header .model-type h1{
+    text-align: center;
+    margin-top: 138px;
+    font-size: 55px;
+    color: rgba(255, 255, 255, 0.58);
+}
+
+
+.bottom p {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(224, 224, 224, 0.986);
+}
+.btn {
+    padding: 8px 29px;
+    border-radius: 50px;
+    border: 3px solid #f4f4f4;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    font-weight: 550;
+    color: #f4f4f4;
+}
+.btn:hover{
+    background: #f4f4f4;
+    color: black;
+
+}
+    
+  p {
+    margin: 10px 0;
+  }  
+  
+  .bottom-board {
+    position: absolute;
+    left: 34%;
+    bottom: 25px;
+  }
+  
+ 
+  .bottom-left,
+  .bottom-center1,
+  .bottom-center2,
+  .bottom-right {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0px 21px;
+    display: inline-block;
+    height: 66px;
+    transition-duration: 0.2s;
+    color: #f4f4f4;
+  }
+  .bottom-center1,
+  .bottom-center2 {
+    border-left: 1px #fff solid;
+  }
+
+
+  .container-2{
+    width: 100%;
+    height: 100vh;
+    background: center center/cover;
+    background-image: url('/images/model_3_safety_hero.png');
+    
+}
+  

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="/css/mobile.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: gray;
+            color: white;
+            text-align: center;
+        }
+
+
+
+        .container {
+            display: inline-block;
+        }
+
+        .container div {
+            margin: 10px;
+            width: 250px;
+            border: 2px solid black;
+        }
+
+        .left {
+            height: 100vh;
+            background: #fff;
+            color: #333;
+            float: left;
+
+            padding: 15px;
+        }
+
+        .right {
+            height: 100vh;
+            background: #fff;
+            color: #333;
+            float: right;
+            padding: 15px;
+        }
+
+        .left li,
+        .right li {
+            list-style: none;
+            padding: 50px;
+            font-size: 50px;
+        }
+
+
+        /* Smartphones */
+        @media only screen and (max-width: 500px) {
+
+            .container {
+                display: flex;
+            }
+
+            .left,
+            .right {
+                display: none;
+            }
+
+
+        }
+
+        /* Smartphones */
+        @media(min-width: 501px) and (max-width: 768px) {
+
+
+            .container {
+                display: flex;
+            }
+
+            .left,
+            .right {
+                display: none;
+            }
+        }
+
+        /* Normal */
+        @media(min-width: 769px) and (max-width: 1200px) {
+
+
+            .container {
+                display: inline-block;
+            }
+            
+
+        }
+
+        /* widescreen */
+        @media(min-width: 1201px) {
+
+
+            .container {
+                display: inline-block;
+            }
+            
+        }
+
+        /* Landscape */
+        @media(max-height: 500px) {
+
+            .container {
+                display: flex;
+            }
+            .left,.right{
+            display: none;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="left">
+        <ul>
+            <li>The</li>
+            <li>Left</li>
+            <li>Side</li>
+        </ul>
+    </nav>
+    <section class="container">
+        <div>
+            <h1>First Item</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum deleniti quos neque, unde, minima qui,
+            </p>
+        </div>
+        <div>
+            <h1>Second Item</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum deleniti quos neque, unde, minima qui,
+            </p>
+        </div>
+        <div>
+            <h1>Third Item</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum deleniti quos neque, unde, minima qui,
+            </p>
+        </div>
+        <div>
+            <h1>Fourth Item</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum deleniti quos neque, unde, minima qui,
+            </p>
+        </div>
+    </section>
+
+    <aside class="right">
+        <ul>
+            <li>The</li>
+            <li>Right</li>
+            <li>Side</li>
+        </ul>
+    </aside>
+</body>
+
+</html>

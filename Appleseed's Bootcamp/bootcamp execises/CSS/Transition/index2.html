@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons of Mystery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #333;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            padding: 20px 50px;
+            margin: 0 40px;
+        }
+
+        .btn-1::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: red;
+            position: relative;
+            transform: translateY(-100px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button class="box btn-1">Rotate</button>
+        <button class="box btn-2">TranslateY</button>
+        <button class="box btn-3">Translate</button>
+        <button class="box btn-4">Scale & Opacity</button>
+    </div>
+</body>
+
+</html>
